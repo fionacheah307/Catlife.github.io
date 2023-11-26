@@ -1,0 +1,265 @@
+
+body{
+    background-image: url('image/WebBG.png');
+    
+}
+
+.banner{
+    width: 900px;
+    margin-left: 200px;
+    margin-top: 90px;
+    box-shadow: 10px 10px 30px 5px grey;
+    border: 5px solid rgb(206,184,164);
+    border-radius: 50px 50px 50px 50px;
+
+    overflow: hidden;
+
+    position: relative;
+}
+
+.banner .photo{
+     width: 100%;
+    height:100%;
+
+    position: relative;
+    left: 0px;
+
+    display: flex;
+
+    transition: all 1s;
+}
+
+.banner .photo img{
+    width: 100%;
+    height: 100%;
+
+    flex-shrink: 0;
+
+    object-fit: cover;
+}
+
+.banner .shift .btn {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+
+    background-color: rgb(192, 211, 211);opacity: 0.5;
+    color: white;
+
+    width: 50px;
+    height: 50px;
+    border: radius 8px ;
+
+    font-size: 40px;
+    font-weight: bold;
+
+    line-height: 50px;
+    text-align: center;
+
+    cursor: pointer;
+
+    user-select: none;
+}
+
+.banner .shift .left{
+    left: 20px;
+    background-color: gray;
+
+}
+
+.banner .shift .right{
+    right: 20px;
+    background-color: gray;
+}
+
+
+.banner .bottom{
+    position: absolute;
+    bottom: 20px;
+
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+
+    width: max-content;
+
+    display: flex;
+    gap: 10px;
+}
+
+.banner .bottom .indicator{
+    height: 5px;
+    width: 40px;
+
+    background-color: rgb(215, 224, 221);
+
+    cursor: pointer;
+}
+
+.banner:hover .bottom.indicator{
+opacity: 0.7;
+}
+
+.banner:hover .shift .btn{
+    opacity: 0.7;
+}
+
+.container{
+    display: flex;
+    
+    
+ }
+ 
+ 
+ .container div{
+     border-radius: 20px 20px 20px 20px ;
+     padding: 20px;
+     width: 450px ; 
+     background-color: rgba(228, 201, 182);
+     position: relative;left: 600px;top: -640px;
+     box-shadow: 3px 0px 10px 0px gray;
+     text-align: center;
+ }
+
+ a{
+    text-decoration: none;
+    font-size: large;
+    font-family: 'HanyiSentyBubbleTea';
+    border-right: 2px solid gray;
+    padding-right: 20px; 
+    padding-left: 20px; 
+    border-radius: 2px 2px 2px 2px;
+ }
+ 
+ .box-1 a:last-child {
+    border-right: none; /* 最后一个链接去除右侧边框，避免最后一项之后仍有分割线 */
+}
+
+ .box-1:hover{
+     background-color: rgba(206, 184, 164, 0.74) ;
+     border-radius: 50px;
+     
+
+ }
+ 
+ /* .box-2:hover{
+    background-color: rgba(206, 184, 164, 0.74) ;
+    border-radius: 50px;
+
+ }
+ 
+ .box-3:hover{
+    background-color: rgba(206, 184, 164, 0.74) ;
+    border-radius: 50px;
+ }
+ 
+ .box-4:hover{
+    background-color: rgba(206, 184, 164, 0.74) ;
+    border-radius: 50px;
+ }
+  */
+
+/*文字顔色,大小,字型*/
+h1{
+    color: rgb(223, 184, 126);
+    font-family: 'HanyiSentyBubbleTea', Times, serif;
+}
+p{
+    color: rgb(150, 75, 21);
+    font-family: 'HanyiSentyBubbleTea';
+
+}
+
+
+/*内容*/
+
+.topicone{
+    width: 200px;
+    position: relative;left: 700px;top: 50px;
+    
+    padding: 50px;
+}
+
+.topicone h1 {
+    width: 400px;
+    position: relative;right: 430px;bottom: -200px;
+}
+
+.topicone p{
+    width: 300px;
+    position: relative;right: 430px;bottom: -200px;
+}
+
+.topictwo{
+    width: 300px;
+    position: relative;left: 250px;bottom: 200px;
+    
+    padding: 50px; 
+}
+
+.topictwo h1 {
+    width: 400px;
+    position: relative;left: 430px;top: 250px;
+}
+
+.topictwo p{
+    width: 300px;
+    position: relative;left: 430px;top: 250px;
+}
+
+.topicthree{
+    width: 300px;
+    position: relative;left: 800px;top: -450px;
+    
+    padding: 50px; 
+}
+
+.topicthree h1 {
+    width: 400px;
+    position: relative;right: 520px;bottom: -200px;
+}
+
+.topicthree p{
+    width: 300px;
+    position: relative;right: 520px;bottom: -200px;
+}
+
+.topicfour{
+    width: 300px;
+    position: relative;left: 350px;top: -550px;
+    
+    padding: 50px; 
+}
+
+.topicfour h1 {
+    width: 400px;
+    position: relative;left: 350px;top: 140px;
+}
+
+.topicfour p{
+    width: 300px;
+    position: relative;left: 350px;top: 140px;
+}
+
+.contentphoto-one{
+    width: 270px;
+}
+
+.contentphoto{
+    width: 200px;
+}
+
+@font-face {
+    font-family: 'HanyiSentyBubbleTea';
+    src: url('HanyiSentyBubbleTea.ttf') format('truetype');
+    
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,35 @@
+
+
+/* 在 BCstyle.css 中 */
+@font-face {
+    font-family: 'HanyiSentyBubbleTea';
+    src: url('HanyiSentyBubbleTea.ttf') format('truetype');
+    
+}
+/*文字顔色,大小,字型*/
+
+h1{
+    color: rgb(223, 184, 126);
+    font-family: 'HanyiSentyBubbleTea', Times, serif;
+}
+p{
+    color: rgb(150, 75, 21);
+    font-family: 'HanyiSentyBubbleTea';
+
+}
+.topicone {
+    width: 200px;
+    position: relative;
+    left: 700px;
+    top: 50px;
+    padding: 50px;
+    
+}
+
+.topictwo{
+    width: 300px;
+    position: relative;left: 250px;bottom: 200px;
+    
+    padding: 50px; 
+}
+
