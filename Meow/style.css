@@ -268,7 +268,7 @@ h2{
 }
 
 
-@media screen and (max-width:430px){
+@media screen and (min-width:430px){
     body{
         background-size: auto;
     }
