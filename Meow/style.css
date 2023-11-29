@@ -268,7 +268,7 @@ h2{
 }
 
 
-@media screen and (min-width: 431px){
+@media screen and (max-width: 430px){
     body{
         background-size: auto;
         background-position: 200px;
@@ -283,7 +283,7 @@ h2{
 
     .container div{
         width: auto;
-        position: relative;left: auto;top: 200px;
+        position: relative;left: 50px;top: 200px;
         font-size: small;
         padding-right: 5px; 
         padding-left: 5px; 
