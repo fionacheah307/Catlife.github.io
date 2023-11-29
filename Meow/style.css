@@ -7,14 +7,14 @@ body{
 .banner{
     width: 900px;
     margin-left: 200px;
-    margin-top: 90px;
+    margin-top: 50px;
     box-shadow: 10px 10px 30px 5px grey;
     border: 5px solid rgb(206,184,164);
     border-radius: 50px 50px 50px 50px;
 
     overflow: hidden;
 
-    position: relative;
+position: relative;
 }
 
 .banner .photo{
@@ -268,19 +268,21 @@ h2{
 }
 
 
-@media(max-width:360px){
+@media screen and (max-width:430px){
     body{
         background-size: auto;
     }
     .banner{
         width: auto;
-        margin-left: 0;
-        margin-top: 0;
+        height: 400px;
+        margin: 5px;
+        
+        position: relative;left: 0px;top: 100px;
     }
 
     .container div{
         width: auto;
-        position: relative;left: 0px;top: 0px;
+        position: relative;left: auto;top: 200px;
         font-size: small;
         padding-right: 10px; 
         padding-left: 10px; 
@@ -288,7 +290,7 @@ h2{
 
     .topicone{
         width: auto;
-        position: relative;left: 0px;bottom: -200px;
+        position: relative;left: 0px;bottom: -350px;
         
         padding: 10px;
     }
@@ -306,7 +308,7 @@ h2{
     .topictwo{
         width: auto;
     
-        position: relative;left: 0px;bottom: -200px;
+        position: relative;left: 0px;bottom: -350px;
         
         padding: 10px; 
     }
@@ -324,7 +326,7 @@ h2{
     .topicthree{
         width: auto;
     
-        position: relative;left: 0px;bottom: -200px;
+        position: relative;left: 0px;bottom: -350px;
         
         padding: 10px; 
     }
@@ -341,7 +343,7 @@ h2{
     
     .topicfour{
         width: auto;
-        position: relative;left: 0px;bottom: -200px;
+        position: relative;left: 0px;bottom: -350px;
         
         padding: 10px; 
     }
@@ -358,6 +360,6 @@ h2{
     
 
     h2{
-        position:relative;top:200px;
+        position:relative;top:350px;
     }
 }
