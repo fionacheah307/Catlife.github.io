@@ -1,0 +1,104 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta charset="UTF-8"></meta>
+        <title>貓咪好幸福手冊</title>
+        <link rel="stylesheet" href="style.css"/>
+        <script src="Sc.js"></script>
+        <!-- AOS動畫 -->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    </head>
+    <body>
+        
+        <div class="banner"> 
+             <div class="photo">
+                <img src="image/HappyCatHandbook.png">
+                <img src="image/HappyCatHandbook.png">
+                <img src="image/HappyCatHandbook.png">
+            </div>
+            <div class="shift">
+                <div class="btn left" onclick="leftShift()">&lt;</div>
+                <div class="btn right" onclick="rightShift()">&gt;</div>
+            </div>
+            <div class="bottom">
+                <div class= "indicator" onclick="setIndex(0)"></div>
+                <div class= "indicator" onclick="setIndex(1)"></div>
+                <div class= "indicator" onclick="setIndex(2)"></div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="box-1">
+                <a href="Bodycare.html">身體健康</a>
+                <a href="MentalHealth.html">心理健康</a>
+                <a href="Communicate.html">溝通</a>
+                <a href="CatLife.html">居家生活</a>
+            </div>
+            <!-- <div class="box-2"></div>
+            <div class="box-3"></div>
+            <div class="box-4"></div> -->
+        </div>
+
+        <br>
+
+        <div class="topicone" >
+            <div data-aos="fade-right">
+                <h1 >照顧貓咪的身體需求</h1>
+                <p>了解如何確保你的貓咪保持健康，飲食、運動和定期醫療檢查的重要性</p>
+            </div>
+            <div data-aos="fade-down-left">
+                <img src="image/content/cat_feed.png"  class="contentphoto-one"/></a>
+            </div>
+        </div>
+        <br>
+        <br>
+
+        
+        <div class="topictwo">
+            <div data-aos="fade-left">
+                <h1 >探索貓咪的心理世界</h1>
+                <p>貓咪可能會有的情感需求，以及如何建立親密的連結和幫助他們渡過壓力</p>
+            </div>
+            <div data-aos="fade-down-right">
+            <img src="image/content/cat_prefer_woman.png" class="contentphoto"/></a>
+            </div>
+        </div>
+        <br>
+        <br>
+
+        
+        <div class="topicthree">
+            <div data-aos="fade-right">
+            <h1 >與貓咪友好溝通之道</h1>
+            <p>解讀貓咪的心情，建立信賴的關係，讓你和你的貓咪更加親近</p>
+            </div>
+            <div data-aos="fade-down-left">
+            <img src="image/content/man_pet.png" class="contentphoto"/></a>
+            </div>
+        </div>
+        <br>
+        <br>
+
+        
+        <div class="topicfour">
+            <div data-aos="fade-left">
+            <h1 >貓咪友好的生活空間</h1>
+            <p>調整家居環境，提供貓咪最佳的生活品質，為他們營造一個幸福的家</p>
+            </div>
+            <div data-aos="fade-down-right">
+            <img src="image/content/env_cat.png" class="contentphoto"/></a>
+        </div>
+        </div>
+</div>
+<h2>follow me</h2>
+
+<script>
+    AOS.init({
+        duration:3000,
+    });
+  </script>
+
+    </body>
+</html>
