@@ -270,8 +270,8 @@ h2{
 
 @media screen and (max-width: 431px){
     body{
-        background-size: 600px;
-        background-position:250px
+        background-size: auto;
+        background-position:0px
     }
     .banner{
         width: auto;
