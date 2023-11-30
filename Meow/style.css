@@ -1,4 +1,4 @@
-
+@media screen and (min-width: 1025px) {
 body{
     background-image: url('image/WebBG.png');
     
@@ -142,34 +142,6 @@ opacity: 0.7;
      
 
  }
- 
- /* .box-2:hover{
-    background-color: rgba(206, 184, 164, 0.74) ;
-    border-radius: 50px;
-
- }
- 
- .box-3:hover{
-    background-color: rgba(206, 184, 164, 0.74) ;
-    border-radius: 50px;
- }
- 
- .box-4:hover{
-    background-color: rgba(206, 184, 164, 0.74) ;
-    border-radius: 50px;
- }
-  */
-
-/*文字顔色,大小,字型*/
-h1{
-    color: rgb(223, 184, 126);
-    font-family: 'HanyiSentyBubbleTea', Times, serif;
-}
-p{
-    color: rgb(150, 75, 21);
-    font-family: 'HanyiSentyBubbleTea';
-
-}
 
 
 /*内容*/
@@ -252,12 +224,6 @@ p{
     width: 190;
 }
 
-@font-face {
-    font-family: 'HanyiSentyBubbleTea';
-    src: url('HanyiSentyBubbleTea.ttf') format('truetype');
-    
-}
-
 h2{
     padding: 40px;
     text-align: center;
@@ -266,7 +232,7 @@ h2{
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
+}
 
 @media screen and (max-width: 600px){
     body{
@@ -363,4 +329,21 @@ h2{
     h2{
         position:relative;top:350px;
     }
+    
+}
+
+@font-face {
+    font-family: 'HanyiSentyBubbleTea';
+    src: url('HanyiSentyBubbleTea.ttf') format('truetype');
+    }
+
+/*文字顔色,大小,字型*/
+h1{
+    color: rgb(223, 184, 126);
+    font-family: 'HanyiSentyBubbleTea', Times, serif;
+}
+p{
+    color: rgb(150, 75, 21);
+    font-family: 'HanyiSentyBubbleTea';
+
 }
