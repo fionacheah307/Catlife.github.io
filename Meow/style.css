@@ -234,7 +234,7 @@ h2{
 
 @media screen and (max-width: 600px){
     body{
-        background-image: url('image/phonesizeBG.png');
+        background-size:auto;
     }
     .banner{
         width: auto;
