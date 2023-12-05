@@ -1,0 +1,53 @@
+body{
+    background-color: gray;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 20% 20% 58%;
+    padding: 20px;
+
+    grid-gap: 10px;
+    
+}
+
+.layout{
+   background-color: white;
+   text-align: center;
+}
+
+.item4{
+    background-image: url('demo\ image.jpg');
+    grid-column :3 ;
+    grid-row:1/span 2;
+    line-height: 200px;
+    background-size: 100% 100%;
+}
+
+.item1{
+    background-image: url('image/content/cat_angry.png');
+    line-height: 200px;
+    background-size: 100% 100%;
+}
+
+.item2{
+    background-image: url('image/content/cat_angry.png');
+    line-height: 200px;
+    background-size: 100% 100%;
+}
+
+.item3{
+    background-image: url('image/content/cat_angry.png');
+    line-height: 200px;
+    background-size: 100% 100%;
+}
+
+@media(max-width:600px){
+    .container{
+        grid-template-columns: auto;
+    }
+    .item4{
+        grid-column: 1;
+        grid-row: 5;
+    }
+}

@@ -1,0 +1,174 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    font-family: 'HanyiSentyBubbleTea';
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(228, 201, 182);
+    padding: 2em;
+    max-height: 0;
+    border-radius: 40px;
+    box-shadow: 3px 0px 10px 0px gray;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'HanyiSentyBubbleTea';
+}
+
+a:hover{
+    background-color: rgba(206, 184, 164, 0.74) ;
+     border-radius: 50px;
+}
+
+section.grid-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 20px;
+    padding: 2em;
+}
+
+section .grid-item {
+    /* padding: 1em;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+section .grid-item.image img {
+    width: 100%; /* 讓圖片寬度填滿其容器 */
+    height: auto; /* 保持比例 */
+    max-width: 100%; /* 設定最大寬度，以避免圖片過大 */
+}
+
+.banner{
+    border-radius: 30px;
+    border: 3px solid rgba(228, 201, 182);
+    overflow: hidden;
+
+position: relative;
+}
+
+.banner .photo{
+     width: 100%;
+    height:100%;
+
+    position: relative;
+    left: 0px;
+
+    display: flex;
+
+    transition: all 1s;
+}
+
+.banner .photo img{
+    width: 100%;
+    height: 100%;
+
+    flex-shrink: 0;
+
+    object-fit: cover;
+}
+
+.banner .shift .btn {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+
+    background-color: rgb(192, 211, 211);opacity: 0.5;
+    color: white;
+
+    width: 50px;
+    height: 50px;
+    border: radius 8px ;
+
+    font-size: 40px;
+    font-weight: bold;
+
+
+    text-align: center;
+
+    cursor: pointer;
+
+    user-select: none;
+}
+
+.banner .shift .left{
+    left: 20px;
+    background-color: gray;
+
+}
+
+.banner .shift .right{
+    right: 20px;
+    background-color: gray;
+}
+
+
+.banner .bottom{
+    position: absolute;
+    bottom: 20px;
+
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+
+    width: max-content;
+
+    display: flex;
+    gap: 10px;
+}
+
+.banner .bottom .indicator{
+    height: 5px;
+    width: 40px;
+
+    background-color: rgb(215, 224, 221);
+
+    cursor: pointer;
+}
+
+.banner:hover .bottom.indicator{
+opacity: 0.7;
+}
+
+.banner:hover .shift .btn{
+    opacity: 0.7;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+@font-face {
+    font-family: 'HanyiSentyBubbleTea';
+    src: url('HanyiSentyBubbleTea.ttf') format('truetype');
+}
+
+@media (max-width: 600px) {
+    nav {
+        flex-direction: row;
+        align-items: center;
+    }
+}
